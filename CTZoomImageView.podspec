@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
 
   s.name         = "CTZoomImageView"
   s.version      = "0.0.1"
-  s.summary      = "A short description of CTUtility."
+  s.summary      = "A short description of CTZoomImageView."
 
   s.description  = <<-DESC
-                   A short description of CTUtility.
+                   A short description of CTZoomImageView.
                    DESC
 
-  s.homepage     = "https://github.com/Valar-Morghulis/CTUtility"
+  s.homepage     = "https://github.com/Valar-Morghulis/CTZoomImageView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -29,14 +29,14 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/Valar-Morghulis/CTUtility.git"}
+  s.source       = { :git => "https://github.com/Valar-Morghulis/CTZoomImageView.git"}
 
 
-s.source_files = 'CTUtility/*.{h,m}'
+s.source_files = 'CTZoomImageView/*.{h,m}'
   
   #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = 'CTUtility/*.h'
+  s.public_header_files = 'CTZoomImageView/*.h'
 
 
   # s.resource  = "icon.png"
